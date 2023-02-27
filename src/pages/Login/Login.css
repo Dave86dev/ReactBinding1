@@ -1,0 +1,51 @@
+
+
+.loginDesign {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navDesign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    margin-bottom: 15em;
+}
+
+.loginButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3em;
+    width: 7em;
+
+    margin: 2em;
+
+    border-radius: 1em;
+    cursor: pointer;
+
+    transition: 0.3s;
+    background-color: cadetblue;
+}
+
+.loginButton:hover {
+    transition: 0.3s;
+    background-color: darkcyan;
+}
+
+.loginMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputDesign {
+    margin: 1em;
+}
